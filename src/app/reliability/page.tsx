@@ -1,7 +1,12 @@
-import React from 'react';
+import reliabilityImg from '../../../public/reliability.jpg';
+import Hero from '@/components/Hero';
 
-const ReliabilityPage = () => {
-  return <div>Reliability Page</div>;
-};
-
-export default ReliabilityPage;
+export default function PerformancePage() {
+  return (
+    <Hero
+      imgData={reliabilityImg}
+      imgAlt='welding'
+      title='Super high reliability hosting '
+    />
+  );
+}
